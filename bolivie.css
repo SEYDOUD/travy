@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+.title{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(185, 2, 185);
+    font-weight: bold;
+}
+.link{
+    margin-right: 20px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: .5s;
+}
+.link a:hover{
+    border-bottom: solid;
+    border-color: rgb(185, 2, 185); 
+    color: black;
+}
+.actives{
+    border-bottom: solid;
+    border-color: rgb(185, 2, 185); ;
+
+}
+.slide{
+    border-radius: 5px;
+    width: 700px;
+    margin: 50px auto;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+body,html{
+    height: 100%;
+}
+.page{
+    
+    height: 100%;
+    width: 700px;
+    margin: 50px auto;
+}
+.description_title{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.description_img{
+    float: left;
+    padding-right: 20px;
+}
+.description_img img{
+    border-radius: 10px;
+}
+.description_img1{
+    
+}
+.description_img1 img{
+    border-radius: 10px;
+    display: block;
+    margin-left: 3px;
+}
+.mon_bouton{
+    margin-top: 20px;
+}
+.cartes{
+    display: flex;
+    justify-content: space-around;
+}
